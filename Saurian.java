@@ -72,3 +72,28 @@ public class Saurian
                 translatedSentence = translatedSentence + " " + wordToAdd;
                 System.out.println(translatedSentence);
             }
+
+
+/*public static void main(String[] args) {
+            String testTranslation = "Fuck this shit boiiiiii";
+            char[] testTranslationToArray = testTranslation.toCharArray();
+            String englisharrFromArray = new String(ENGLISHARR);
+            String saurianarrFromArray = new String(SAURIANARR);
+            int count = 0;
+            StringBuilder sb = new StringBuilder();
+            System.out.println(testTranslationToArray);
+            for (int i = 0; i < testTranslation.length(); i++){
+                char untranslatedChar = testTranslationToArray[i];
+                //boolean areWeThereYet = false;
+                for (int j = 0; j < ARRLENGTH; j++){
+                    if (untranslatedChar == englisharrFromArray.charAt(j)){
+                        sb.append(saurianarrFromArray.charAt(j));
+                        //areWeThereYet = true;
+                    }
+
+
+                    System.out.println(sb);
+            
+            
+                 
+            }*/
